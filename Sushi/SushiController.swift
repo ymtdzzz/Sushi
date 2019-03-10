@@ -14,6 +14,10 @@ class SushiController: NSViewController {
         self.view = NSView()
     }
     
+    override func viewDidDisappear() {
+        self.view = NSView()
+    }
+    
     override func viewDidAppear() {
 
         let sushiView = NSView()
